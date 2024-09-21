@@ -129,6 +129,15 @@
 
 - type: entity
   parent: ClothingBackpack
+  id: ClothingBackpackPathologist
+  name: pathologist backpack
+  description: A backpack for keeping itmes clean.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Backpacks/pathologist.rsi
+
+- type: entity
+  parent: ClothingBackpack
   id: ClothingBackpackHydroponics
   name: hydroponics backpack
   description: It's a backpack made of all-natural fibers.

@@ -21,6 +21,17 @@
     sprite: Clothing/Uniforms/Jumpskirt/captain.rsi
 
 - type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpskirtPathologist
+  name: pathologist's uniform
+  description: A nice sterile uniform for dead-silent moments.
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpskirt/pathologist.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpskirt/pathologist.rsi
+
+- type: entity
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtCargo
   name: cargo tech jumpskirt

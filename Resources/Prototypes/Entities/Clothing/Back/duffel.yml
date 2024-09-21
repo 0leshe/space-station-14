@@ -26,6 +26,15 @@
 
 - type: entity
   parent: ClothingBackpackDuffel
+  id: ClothingBackpackDuffelPathologist
+  name: pathologist duffel bag
+  description: A large duffel bag for someone's heart.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Duffels/pathologist.rsi
+
+- type: entity
+  parent: ClothingBackpackDuffel
   id: ClothingBackpackDuffelAtmospherics
   name: atmospherics duffel bag
   description: A large duffel bag made of fire resistant fibers. Smells like plasma.

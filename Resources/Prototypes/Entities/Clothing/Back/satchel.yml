@@ -41,6 +41,15 @@
 
 - type: entity
   parent: ClothingBackpackSatchel
+  id: ClothingBackpackSatchelPathologist
+  name: pathologist satchel
+  description: A sterile satchel for medical related needs.
+  components:
+  - type: Sprite
+    sprite: Clothing/Back/Satchels/pathologist.rsi
+
+- type: entity
+  parent: ClothingBackpackSatchel
   id: ClothingBackpackSatchelClown
   name: clown satchel
   description: For fast running from security.

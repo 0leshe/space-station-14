@@ -211,6 +211,28 @@
       - state: CHEF-equipped-OUTERCLOTHING
 
 - type: entity
+  parent: ClothingOuterWinterCoat
+  id: ClothingOuterWinterPathologist
+  name: pathologist's winter coat
+  description: A coat specifically designed for work in cold and sterile places.
+  components:
+  - type: Sprite
+    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    layers:
+    - state: PATHOLO-icon
+  - type: Item
+    inhandVisuals:
+      left:
+      - state: PATHOLO-inhand-left
+      right:
+      - state: PATHOLO-inhand-right
+  - type: Clothing
+    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    clothingVisuals:
+      outerClothing:
+      - state: PATHOLO-equipped-OUTERCLOTHING
+
+- type: entity
   parent: ClothingOuterWinterCoatToggleable
   id: ClothingOuterWinterChem
   name: chemistry winter coat
